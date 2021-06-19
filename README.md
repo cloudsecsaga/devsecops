@@ -12,4 +12,4 @@ Deploy ```target/WebApp.war``` on Tomcat
  
 #TODO
  
-Add instruction to deploy to ElasticBeanstalk
+ Update by Rahul Rawat on 19-june-2021
