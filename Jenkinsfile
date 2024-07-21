@@ -15,8 +15,9 @@ maven 'Maven'
       
     }
   stage ('Build') {
+    steps { 
     sh 'mvn clean package'
-
+    }
   }
   }    
 }
