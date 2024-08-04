@@ -29,3 +29,4 @@ sh 'scp -o StrictHostKeyChecking=no target/*.war saga@98.70.72.160:/home/saga/pr
    }
   }    
 }
+}
