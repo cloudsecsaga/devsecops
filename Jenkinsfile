@@ -23,10 +23,9 @@ maven 'Maven'
 
    stage ('Deploytotomcat') {
 steps{
-sshagent (credentials:['datta'],ignoreMissing: true) {
-sh 'scp -o StrictHostKeyChecking=no target/*.war saga@98.70.72.160:/home/saga/prod/apache-tomcat-9.0.91/webapps/webapp.war'
+sh 'sshpass -p 'Sagarchavan@2024' 'scp -o StrictHostKeyChecking=no target/*.war saga@98.70.72.160:/home/saga/prod/apache-tomcat-9.0.91/webapps/webapp.war'
 }
-}
+
    }
   }    
 }
